@@ -1,8 +1,44 @@
 <html>
   <title>证书信息</title>
-<body style="background: #c6dbf5;">
+  <style>
+  	
+  	body{
+    /*margin:0px;
+    padding:0px;*/
+    background-color:lightgray;
+}
+.pageArea,.pageArea2{
+    position:relative;
+    width:718px;
+    height:510px;
+    background:url("../Images/background.gif") no-repeat left top;
+    border:1px solid gray;
+    margin:5px auto;
+    z-index:-2;
+}
 
-<table border="1" align="center" style="background: #fff;font-family: serif;">
+.pageArea2{
+    background:url("../Images/background2.gif") no-repeat left top;
+    z-index:-2;
+}
+
+.data{
+	position:absolute;
+	font-family: "仿宋";
+	font-size: 12pt;
+	color: #000000;
+        z-index:100;
+}
+
+.img{
+	position:absolute;
+	z-index:-1;
+}
+  </style>
+<body style="background: #DBECF6;">
+
+<table width="500" border="1" align="center" cellpadding="8" bgcolor="#FFFFFF" bordercolor="#999999" style="font-family: Microsoft YaHei, Verdana, Arial, Helvetica, sans-serif; font-size:14px;">
+
   	<tr>
 	    <td align="right">姓名：</td>
 	    <td> 李伟</td>
@@ -49,7 +85,9 @@
   	</tr>
   	<tr>
 	    <td align="right">证书流水码所属号段：</td>
-	    <td><strong> 20113001 - 20113595</strong></td>
+	    <td><span >
+			      <b>20113001</b> - <b>20113595 </b>
+			</span></td>
   	</tr>
   	
 </table>
